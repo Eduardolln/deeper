@@ -17,8 +17,8 @@ And some have been jumbled up like this:
 ![rotated_right](https://imgur.com/73Obelm.jpg)
 ![upside_down](https://imgur.com/mFUm3E8.jpg)
 
-The task is to create a neural network which takes an image of a face as input and returns its orientation: `upright`, 
-`rotated_left`, `rotated_right`, or `upside_down`.
+The task is to create a neural network which takes an image of a face as input and returns its orientation - `upright`, 
+`rotated_left`, `rotated_right`, or `upside_down` - and use this neural network to correct the images in the test set.
 
 ## Data Format
 
@@ -60,14 +60,27 @@ use the attached `eval.py` to run with** - the preds file format is the same as 
 
     python eval.py test.truth.csv test.preds.csv
 
+Additionally you need to submit a zip file of the truth images with the corrected orientations, as best as you can given 
+how well your neural net performs.  For example, this test set image:
+  
+![broken](https://i.imgur.com/YS5I71c.jpg)
+  
+Would be corrected to:
+  
+![fixed](https://i.imgur.com/BL3LsDq.jpg)
+  
+Note they don't have to be 100% correct, you just have to use your neural net's predictions to rotate the faces.
+
 You should be able to get 90%+ on your training set, and we'll expect a similar result when we evaluate your submission
 on the test set.
 
 # Submission
 
-When you are done, submit the following:
+When you are done, submit the following, preferably in a GitHub repository:
 
 * Your prediction csv file on the test data in the correct format
+* A zip file of the test set images with the corrected orientations.
+  
 * All the code needed to train and run your network to produce that prediction from
   scratch, along with instructions on how to run the code
 * A short description, in English, of the approach you took and how you arrived at the solution 
