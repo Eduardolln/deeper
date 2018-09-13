@@ -13,8 +13,8 @@ The upright images are like this:
 
 And some have been jumbled up like this:
 
-![rotated_left](https://imgur.com/73Obelm.jpg)
-![rotated_right](https://imgur.com/JWdJl0B.jpg)
+![rotated_left](https://imgur.com/JWdJl0B.jpg)
+![rotated_right](https://imgur.com/73Obelm.jpg)
 ![upside_down](https://imgur.com/mFUm3E8.jpg)
 
 The task is to create a neural network which takes an image of a face as input and returns its orientation: `upright`, 
