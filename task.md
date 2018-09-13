@@ -45,32 +45,32 @@ fn,label
 
 The training data is a set of images and the ground truth for them.
 
-[**Download Link**]()
+[**Download Link**](https://www.dropbox.com/s/lbobq9xt3nchq5q/train.rotfaces.zip?dl=0)
 
 ## Test Data
 
 The test data is a set of images without the ground truth.
 
-[**Download Link**]()
+[**Download Link**](https://www.dropbox.com/s/ustfubunhfe47mj/test.rotfaces.zip?dl=0)
 
 ## Evaluation
 
 You will be evaluated based on how many images were correctly classified. **You must submit a test.preds.csv which we can
-use the attached `eval.py` to run with:**
+use the attached `eval.py` to run with** - the preds file format is the same as the ground truth:
 
     python eval.py test.truth.csv test.preds.csv
 
-To give you an estimate, we got a model with 98% correct on the training set and 89% correct on our test set, without tweaking 
-it too much - your results should be around this range or better.
+You should be able to get 90%+ on your training set, and we'll expect a similar result when we evaluate your submission
+on the test set.
 
 # Submission
 
 When you are done, submit the following:
 
-* Your prediction csv file on the test data in the correct format (see above)
+* Your prediction csv file on the test data in the correct format
 * All the code needed to train and run your network to produce that prediction from
   scratch, along with instructions on how to run the code
-* A short description of the approach you took and how you arrived at the solution 
+* A short description, in English, of the approach you took and how you arrived at the solution 
   you did
 
 Good luck!
