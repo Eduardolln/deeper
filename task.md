@@ -63,11 +63,11 @@ use the attached `eval.py` to run with** - the preds file format is the same as 
 Additionally you need to submit a zip file of the truth images with the corrected orientations, as best as you can given 
 how well your neural net performs.  For example, this test set image:
   
-![broken](https://i.imgur.com/YS5I71c.jpg)
+![broken](https://i.imgur.com/BL3LsDq.jpg)
   
 Would be corrected to:
   
-![fixed](https://i.imgur.com/BL3LsDq.jpg)
+![fixed](https://i.imgur.com/YS5I71c.jpg)
   
 Note they don't have to be 100% correct, you just have to use your neural net's predictions to rotate the faces.
 
