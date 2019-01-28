@@ -19,7 +19,8 @@ And some have been jumbled up like this:
 
 The task is to create a neural network which takes an image of a face as input and returns its orientation - `upright`, 
 `rotated_left`, `rotated_right`, or `upside_down` - and use this neural network to correct the images in the test set.
-A good starting point is to start with an existing model like the Keras CIFAR10 model.
+
+**Use Keras's CIFAR10 model as a starting point.** If you want to make your own model or make improvements for there, include your results both for the CIFAR10 model and for your (better-performing) model.
 
 ## Data Format
 
@@ -79,7 +80,8 @@ on the test set.
 
 When you are done, submit the following, preferably in a GitHub repository:
 
-* Your prediction csv file on the test data in the correct format
+* Your prediction csv file on the test data in the correct format , using the CIFAR10 model.
+* [optional] Any prediction csv files on the test data from model you made or improved yourself.
 * A zip file of the test set images with the corrected orientations.
   
 * All the code needed to train and run your network to produce that prediction from
