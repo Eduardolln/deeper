@@ -82,8 +82,7 @@ When you are done, submit the following, preferably in a GitHub repository:
 
 * Your prediction csv file on the test data in the correct format , using the CIFAR10 model.
 * [optional] Any prediction csv files on the test data from model you made or improved yourself.
-* A zip file of the test set images with the corrected orientations.
-  
+* A zip file of the test set images, **as PNGs**, with the corrected orientations.  
 * All the code needed to train and run your network to produce that prediction from
   scratch, along with instructions on how to run the code
 * A short description, in English, of the approach you took and how you arrived at the solution 
