@@ -62,6 +62,11 @@ use the attached `eval.py` to run with** - the preds file format is the same as 
 
     python eval.py test.truth.csv test.preds.csv
 
+You should be able to get 90%+ on your training set, and we'll expect a similar result when we evaluate your submission
+on the test set.
+
+### Zip Output
+
 Additionally you need to submit a zip file of the truth images with the corrected orientations, as best as you can given 
 how well your neural net performs.  For example, this test set image:
   
@@ -73,8 +78,11 @@ Would be corrected to:
   
 Note they don't have to be 100% correct, you just have to use your neural net's predictions to rotate the faces.
 
-You should be able to get 90%+ on your training set, and we'll expect a similar result when we evaluate your submission
-on the test set.
+### Numpy Output
+
+As a last step, you should save all of the **corrected orientation** faces into one numpy array file. This is a standard format that is used as input to further neural networks we might want to train on the data.
+
+For clarity, the numpy array file should have shape (5361, 64, 64, 3).
 
 # Submission
 
